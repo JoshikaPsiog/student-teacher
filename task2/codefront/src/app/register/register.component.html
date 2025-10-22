@@ -1,0 +1,69 @@
+<div class="register-container">
+  <div class="register-card">
+    <h2>Register</h2>
+    
+    <p *ngIf="errorMsg" class="error">{{ errorMsg }}</p>
+    <p *ngIf="successMsg" class="success">{{ successMsg }}</p>
+
+    <form (ngSubmit)="onSubmit()">
+      <div class="form-group">
+        <label>Name:</label>
+        <input 
+          type="text" 
+          [(ngModel)]="name" 
+          name="name"
+          placeholder="Enter your name"
+          required
+        />
+      </div>
+
+      <div class="form-group">
+        <label>Email:</label>
+        <input 
+          type="email" 
+          [(ngModel)]="email" 
+          name="email"
+          placeholder="Enter your email"
+          required
+        />
+      </div>
+
+      <div class="form-group">
+        <label>Password:</label>
+        <input 
+          type="password" 
+          [(ngModel)]="password" 
+          name="password"
+          placeholder="Enter your password"
+          required
+        />
+      </div>
+
+      <div class="form-group">
+        <label>Date of Birth:</label>
+        <input 
+          type="date" 
+          [(ngModel)]="dateOfBirth" 
+          name="dateOfBirth"
+          required
+        />
+      </div>
+
+      <div class="form-group">
+        <label>Designation:</label>
+        <select [(ngModel)]="designation" name="designation">
+          <option value="Teacher">Teacher</option>
+          <option value="Student">Student</option>
+        </select>
+      </div>
+
+      <button type="submit" class="register-btn" [disabled]="loading">
+        {{ loading ? 'Registering...' : 'Register' }}
+      </button>
+    </form>
+
+    <p class="login-link">
+      Already have an account? <a routerLink="/login">Login here</a>
+    </p>
+  </div>
+</div>

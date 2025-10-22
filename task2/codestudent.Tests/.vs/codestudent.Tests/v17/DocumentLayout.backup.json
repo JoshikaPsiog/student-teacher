@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\joshika.mahendrababu\\Desktop\\codestudent.Tests\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9A71BC2F-6C9E-48F3-B890-9217DB2868B5}|codestudent.Tests.csproj|c:\\users\\joshika.mahendrababu\\desktop\\codestudent.tests\\controllertests\\userscontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A71BC2F-6C9E-48F3-B890-9217DB2868B5}|codestudent.Tests.csproj|solutionrelative:controllertests\\userscontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A71BC2F-6C9E-48F3-B890-9217DB2868B5}|codestudent.Tests.csproj|c:\\users\\joshika.mahendrababu\\desktop\\codestudent.tests\\controllertests\\authcontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A71BC2F-6C9E-48F3-B890-9217DB2868B5}|codestudent.Tests.csproj|solutionrelative:controllertests\\authcontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A71BC2F-6C9E-48F3-B890-9217DB2868B5}|codestudent.Tests.csproj|c:\\users\\joshika.mahendrababu\\desktop\\codestudent.tests\\servicetests\\userservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A71BC2F-6C9E-48F3-B890-9217DB2868B5}|codestudent.Tests.csproj|solutionrelative:servicetests\\userservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A71BC2F-6C9E-48F3-B890-9217DB2868B5}|codestudent.Tests.csproj|c:\\users\\joshika.mahendrababu\\desktop\\codestudent.tests\\helpers\\testdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A71BC2F-6C9E-48F3-B890-9217DB2868B5}|codestudent.Tests.csproj|solutionrelative:helpers\\testdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A71BC2F-6C9E-48F3-B890-9217DB2868B5}|codestudent.Tests.csproj|c:\\users\\joshika.mahendrababu\\desktop\\codestudent.tests\\globalusings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A71BC2F-6C9E-48F3-B890-9217DB2868B5}|codestudent.Tests.csproj|solutionrelative:globalusings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A71BC2F-6C9E-48F3-B890-9217DB2868B5}|codestudent.Tests.csproj|c:\\users\\joshika.mahendrababu\\desktop\\codestudent.tests\\codestudent.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{9A71BC2F-6C9E-48F3-B890-9217DB2868B5}|codestudent.Tests.csproj|solutionrelative:codestudent.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UsersControllerTests.cs",
+              "DocumentMoniker": "C:\\Users\\joshika.mahendrababu\\Desktop\\codestudent.Tests\\ControllerTests\\UsersControllerTests.cs",
+              "RelativeDocumentMoniker": "ControllerTests\\UsersControllerTests.cs",
+              "ToolTip": "C:\\Users\\joshika.mahendrababu\\Desktop\\codestudent.Tests\\ControllerTests\\UsersControllerTests.cs",
+              "RelativeToolTip": "ControllerTests\\UsersControllerTests.cs",
+              "ViewState": "AgIAAJEAAAAAAAAAAAAcwLMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T10:02:24.167Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AuthControllerTests.cs",
+              "DocumentMoniker": "C:\\Users\\joshika.mahendrababu\\Desktop\\codestudent.Tests\\ControllerTests\\AuthControllerTests.cs",
+              "RelativeDocumentMoniker": "ControllerTests\\AuthControllerTests.cs",
+              "ToolTip": "C:\\Users\\joshika.mahendrababu\\Desktop\\codestudent.Tests\\ControllerTests\\AuthControllerTests.cs",
+              "RelativeToolTip": "ControllerTests\\AuthControllerTests.cs",
+              "ViewState": "AgIAAJ4AAAAAAAAAAAAuwKoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T10:01:58.512Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserServiceTests.cs",
+              "DocumentMoniker": "C:\\Users\\joshika.mahendrababu\\Desktop\\codestudent.Tests\\ServiceTests\\UserServiceTests.cs",
+              "RelativeDocumentMoniker": "ServiceTests\\UserServiceTests.cs",
+              "ToolTip": "C:\\Users\\joshika.mahendrababu\\Desktop\\codestudent.Tests\\ServiceTests\\UserServiceTests.cs",
+              "RelativeToolTip": "ServiceTests\\UserServiceTests.cs",
+              "ViewState": "AgIAAAgBAAAAAAAAAAAuwBQBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T10:01:27.504Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TestDbContextFactory.cs",
+              "DocumentMoniker": "C:\\Users\\joshika.mahendrababu\\Desktop\\codestudent.Tests\\Helpers\\TestDbContextFactory.cs",
+              "RelativeDocumentMoniker": "Helpers\\TestDbContextFactory.cs",
+              "ToolTip": "C:\\Users\\joshika.mahendrababu\\Desktop\\codestudent.Tests\\Helpers\\TestDbContextFactory.cs",
+              "RelativeToolTip": "Helpers\\TestDbContextFactory.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAuwEYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T10:00:58.358Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GlobalUsings.cs",
+              "DocumentMoniker": "C:\\Users\\joshika.mahendrababu\\Desktop\\codestudent.Tests\\GlobalUsings.cs",
+              "RelativeDocumentMoniker": "GlobalUsings.cs",
+              "ToolTip": "C:\\Users\\joshika.mahendrababu\\Desktop\\codestudent.Tests\\GlobalUsings.cs",
+              "RelativeToolTip": "GlobalUsings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAmwAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T09:59:35.331Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "codestudent.Tests",
+              "DocumentMoniker": "C:\\Users\\joshika.mahendrababu\\Desktop\\codestudent.Tests\\codestudent.Tests.csproj",
+              "RelativeDocumentMoniker": "codestudent.Tests.csproj",
+              "ToolTip": "C:\\Users\\joshika.mahendrababu\\Desktop\\codestudent.Tests\\codestudent.Tests.csproj",
+              "RelativeToolTip": "codestudent.Tests.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAcwFIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-22T09:49:13.91Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+<div class="user-list-container">
+  <div class="header-actions">
+    <h2>User Management</h2>
+    <button (click)="logout()" class="logout-btn">Logout</button>
+  </div>
+  
+  <p *ngIf="errorMsg" class="error">{{ errorMsg }}</p>
+  <p *ngIf="loading && !showForm">Loading users...</p>
+
+  <!-- Role indicator -->
+  <p style="background: #e0e0e0; padding: 10px; border-radius: 5px; margin-bottom: 15px;">
+    You are logged in as: <strong>{{ isTeacher ? 'Teacher (Full Access)' : 'Student (Read Only)' }}</strong>
+  </p>
+
+  <!-- Create button - only for teachers -->
+  <button *ngIf="isTeacher && !showForm && !loading" (click)="openCreateForm()" class="create-btn">
+    + Create New User
+  </button>
+
+  <!-- Create/Edit Form - only for teachers -->
+  <div *ngIf="showForm && isTeacher" class="user-form">
+    <h3>{{ isEditMode ? 'Edit User' : 'Create New User' }}</h3>
+    
+    <div class="form-group">
+      <label>Name: <span style="color: red;">*</span></label>
+      <input type="text" [(ngModel)]="currentUser.name" placeholder="Enter name" required />
+    </div>
+
+    <div class="form-group">
+      <label>Email: <span style="color: red;">*</span></label>
+      <input type="email" [(ngModel)]="currentUser.email" placeholder="Enter email" required />
+    </div>
+
+    <div class="form-group">
+      <label>Date of Birth: <span style="color: red;">*</span></label>
+      <input type="date" [(ngModel)]="currentUser.dateOfBirth" required />
+    </div>
+
+    <div class="form-group">
+      <label>Designation: <span style="color: red;">*</span></label>
+      <select [(ngModel)]="currentUser.designation" required>
+        <option value="Teacher">Teacher</option>
+        <option value="Student">Student</option>
+      </select>
+    </div>
+
+    
+
+    <div class="form-actions">
+      <button (click)="saveUser()" class="save-btn" [disabled]="loading">
+        {{ loading ? 'Saving...' : 'Save' }}
+      </button>
+      <button (click)="cancelForm()" class="cancel-btn" [disabled]="loading">Cancel</button>
+    </div>
+  </div>
+
+  <!-- User List -->
+  <div *ngIf="!loading || showForm">
+    <h3>Users List ({{ users.length }} users)</h3>
+    
+    <ul *ngIf="users.length > 0; else noUsers">
+      <li *ngFor="let user of users">
+        <div class="user-info">
+          <strong>{{ user.name }}</strong> ({{ user.email }})<br>
+          <small>{{ user.designation }} | DOB: {{ user.dateOfBirth | date }}</small>
+        </div>
+        
+        <div class="user-actions" *ngIf="isTeacher">
+          <button (click)="openEditForm(user)" class="edit-btn">Edit</button>
+          <button (click)="deleteUser(user.userId!)" class="delete-btn">Delete</button>
+        </div>
+      </li>
+    </ul>
+
+    <ng-template #noUsers>
+      <p>No users available.</p>
+    </ng-template>
+  </div>
+</div>
